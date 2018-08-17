@@ -7,7 +7,7 @@ nav {
     background-color: #C12127;
     color: rgba(255,255,255,0.8);
     padding-top: 15px;
-    height: 100px;   
+    height: 100px; 
 }
 
 nav a{
@@ -19,12 +19,6 @@ body {
     font-family: 'Open Sans', sans-serif;        
 }
 
-.top-left {
-    background-color: #C12127;
-    color: rgba(255,255,255,0.8);
-    padding-top: 15px;
-    height: 100px;
-}
 
 .top-links {
     display: inline-block;
@@ -40,13 +34,17 @@ body {
     margin: 0 10px;
 }
 
+.section0 {
+    background-color: rgba(255,255,255,0.8);
+}
 
 .section1 {
+    background: url("images/city-scape.svg");
     background-color: rgb(32, 101, 136);
     color: white;
     font-size: 20px;
     text-align: left;
-    padding: 100px 100px 100px 100px;
+    padding: 100px 100px 100px 500px;
 }
 
 .boton1 {
@@ -59,11 +57,13 @@ body {
 
 
 .section2 {
+    background: url("images/collaboration.svg") no-repeat;
     background-color: rgb(39, 53, 71);
     color: white;
     font-size: 20px;
     text-align: right;
-    padding: 100px 100px 100px 100px;
+    padding: 100px 100px 100px 500px;
+    
 }
 
 .boton2 {
@@ -75,11 +75,10 @@ body {
 }
 
 .section3 {
-    background-size: cover;
-    background-color: rgb(32, 101, 136);
+    background: url("images/forklift.svg") no-repeat right;
     color: white;
     text-align: left;
-    
+    padding: 100px 100px 100px 500px;
 }
 
 .boton3 {
@@ -91,7 +90,7 @@ body {
 }
 
 .section4{
-    padding: 100px 100px 100px 100px;
+    padding: 100px 100px 100px 500px;
 }
 
 
@@ -99,7 +98,9 @@ body {
     padding: 0;
     margin: 0;
     float: left;
-    text-align: left;
+    text-align: center;
+    display: inline-block;
+    width: 33.3333%;
 }
 
 .discover{
@@ -107,13 +108,17 @@ body {
     margin: 0;
     float: center;
     text-align: center;
+    display: inline-block;
+    width: 33.3333%;
 }
 
 .build {
     padding: 0;
     margin: 0;
     float: right;
-    text-align: right;
+    text-align: center;
+    display: inline-block;
+    width: 33.3333%;
 }    
 .h3 {
     text-align: center;
